@@ -68,6 +68,8 @@ body {
   background: -o-linear-gradient(#ffffff, #f2f2f2);
   background: -ms-linear-gradient(#ffffff, #f2f2f2);
   background: linear-gradient(#ffffff, #f2f2f2);
+  border-style:groove
+  border-width: 5px
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -167,6 +169,8 @@ img {
 
 header {
   width:270px;
+  border-style:groove
+  border-width: thick
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -258,7 +262,7 @@ footer {
 
 .sidenav {
     height: 100%;
-    width: 100%;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
